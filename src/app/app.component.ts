@@ -8,7 +8,7 @@ import {ConverterService} from './converter.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit{
-  title = 'PLN-bits';
+  title = 'pln-bits';
   bitsInput: string = 'Bits'
   plnInput: string = 'PLN'
   price100Bits: number = 1.77
