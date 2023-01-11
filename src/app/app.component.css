@@ -1,0 +1,27 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: blue;
+  width: 100vw;
+  height: 100vh;
+  gap: 12px;
+}
+
+.switcher{
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
+.amount-input{
+  min-width: 350px;
+}
+
+.state-switch, .info{
+  color: #565656;
+  font-size: 4vh;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-weight:400;
+}
